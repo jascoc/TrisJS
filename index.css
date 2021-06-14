@@ -1,0 +1,41 @@
+html,body{
+    height: 100vh;
+    width: 100vw;
+    padding: 0%;
+    border: none;
+    margin: px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: calc(50% - 250px) ;
+    padding-top: calc(25% - 125px) ;
+    padding-bottom: calc(25% - 125px) ;
+}
+
+.grid {
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+  
+}
+
+.row {
+    height: calc(100% / 3);
+    width: calc(100% / 3);
+}
+
+.cell{
+    float: left;
+    height: calc(100% / 3);
+    width: calc(100% / 3);
+    cursor: pointer;
+    font-size: 5rem;
+
+}
+.cell:hover{
+    border-radius: 5px;
+    border: 1px red;
+}
